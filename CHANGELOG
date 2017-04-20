@@ -1,0 +1,26 @@
+Version 1.1.2 - Feb 20, 2015
+- upgrade to cssbox-4.8.1 (same dependency changes as below - https://github.com/KajKandler/CSSBox)
+- declare dependencies on xerces and xml-api's as provided, making the component friendlier to cooperate with other components in environments where isolated class loaders are used, i.e. IDE plugin development - implementations for these are shipped with JRE 6 or younger
+Version 1.1 - Sep 1, 2014
+- Improved scrollToReference API
+- Content clipping fixes according to the current CSSBox API
+- URL protocol registration fixes
+- Thread parameters fixed in demos
+
+Version 1.0 - Feb 10, 2014
+- Drawing order completely rewritten using the new CSSBox API
+- View-to-model (mainly mouse click behavior) fixes
+- Clipping fixes
+- setText() implementation using data urls
+- Text decoration fixes
+- Scroll to reference fixed
+- Converted to Maven 
+ 
+Version 0.2 - Feb 22, 2013
+- Updated to current CSSBox version
+- Scrolling to anchor improved and ID attribute as anchor interpretation added (closes #5)
+- List item marker drawing fixed (closes #3, #4, #8)
+- Box visibility and painting fixes (closes #6)
+
+Version 0.1 - Jul 27, 2012
+- First public release
